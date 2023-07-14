@@ -1,0 +1,12 @@
+# 1 2 3 4 5
+print(1,2,3,4,5)
+# 1,2,3,4,5
+print(1,2,3,4,5, sep=',')
+# 1,2,3,4,5.
+print(1,2,3,4,5, sep = ',', end='.' )
+print()
+print('¡Hola! Somos Time Square, ¿Como te llamas?')
+nombre = input()
+print(f'{nombre} nos alegramos mucho de que nos hayas elegido')
+edad = input('¿Cuantos años tienes?  ')
+print(f'Tienes {edad} años')
