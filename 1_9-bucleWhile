@@ -1,0 +1,28 @@
+# Bucle while está recomendado para contextos en los que no se sabe
+# exactamente el número de iteraciones que se tienen que ejecutar, pero sí se sabe
+# que hay que ejecutar iteraciones hasta que se deje de cumplir una condición
+
+# La condición que se utiliza para comprobar si se tiene que ejecutar una iteración
+# deberá de ser true para que se ejecute, si en caso contrario la condición es false,
+# la ejecución del bucle finalizará.
+
+# Las variables que se utilizan en la condición del bucle se llaman
+# variables de control
+
+# # Sintaxis
+# while Condición:
+#   BloqueInstrucciones
+
+# # EXERCISE 1
+# i = 0
+# while i <= 10:
+#     print(i, end="\n")
+#     i += 1
+
+# # EXERCISE 2
+# continuar = True
+# while continuar:
+#     valor = int(input("Introduce un entero superior a 100: "))
+#     if valor > 100:
+#         continuar = False
+# print("Programa acabado")
