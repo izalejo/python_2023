@@ -1,0 +1,47 @@
+# EXERCISE 1
+# def Saludar():
+    # print("¡Hola Time of Software!")
+# Saludar()
+
+# EXERCISE 2
+# def EsMayorQueCero(param):
+#     if param > 0:
+#         print(param, "es mayor que cero")
+#     else:
+#         print(param, "no es mayor que cero")
+
+# param = int(input("Introduce un numero: "))
+# EsMayorQueCero(param)
+
+# EXERCISE 3
+# def Sumar(param1, param2):
+#     return param1 + param2
+
+# sumando1 = int(input("Introduce el primer sumando: "))
+# sumando2 = int(input("Introduce el segundo sumando: "))
+
+# resultado = Sumar(sumando1,sumando2)
+
+# print("El resultado de la suma es: ", resultado)
+
+# # EXERCISE 4
+# def SumarRestar(param1, param2):
+#     return param1 + param2, param1 - param2
+
+# numero1 = int(input("Introduce el primer numero: "))
+# numero2 = int(input("Introduce el segundo numero: "))
+
+# # Se asocia a la posicion del return que se encuentra en la funcion
+# resultadosuma, resultadoresta = SumarRestar(numero1,numero2)
+
+# print("El resultado de la suma es: ", resultadosuma)
+# print("El resultado de la resta es: ", resultadoresta)      
+
+def Sumar(*valores):
+    resultado = 0
+    for item in valores:
+        resultado += item
+    return resultado
+
+resultado = Sumar(23,56,3,89,78,455)
+print("El resultado de la suma es: ", resultado)
