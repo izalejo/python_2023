@@ -1,0 +1,6 @@
+# Una lista es un conjunto ordenado de elementos que puede contener datos de
+# cualquier tipo. Es el tipo de colección más flexible de todos los que veremos en
+# esta fase. Las listas pueden contener elementos del mismo tipo o elementos de
+# diferentes tipos.
+# En Python las listas se delimitan con corchetes “[ ]”, con los elementos
+# separados por comas.
