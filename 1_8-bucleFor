@@ -1,0 +1,29 @@
+# Los bucles consisten en la repetición de la ejecución de un bloque de
+# instrucciones en la que cada repetición se llama iteración
+
+# En un bucle tienes que especificar lo siguiente:
+# Punto de inicio del bucle.
+# Punto de fin del bucle.
+# Número de iteraciones.
+
+# Bucle for está recomendado para contextos en los que se sabe el número de iteraciones exactas que se van a dar en su ejecución, es decir, es un
+# bucle que busca ejecutar un conjunto de instrucciones de forma repetitiva hasta
+# llegar al número máximo de iteraciones definidas
+
+# sintaxis
+# for Variable in ColeccionIterable:
+#   BloqueInstrucciones
+
+# # EXERCISE 1
+# lista = [1,2,3,4,5,6,7,8,9]
+# for item in lista:
+#     print(item, end=" ")
+
+# # EXERCISE 2
+# lista = ["ordenador", "teclado", "raton"]
+# for item in lista:
+#     print(item, end=" ")
+
+# EXERCISE 3
+for item in range(10):
+    print(item, end=" ")
