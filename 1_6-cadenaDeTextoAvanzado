@@ -1,0 +1,102 @@
+# # En un lugar de la mancha...
+# cadenaejemplo = "en un lugar de la mancha..."
+# print(cadenaejemplo.capitalize())
+
+# # EN UN LUGAR DE LA MANCHA...
+# cadenaejemplo = "en un lugar de la mancha..."
+# print(cadenaejemplo.upper())
+
+# # en un lugar de la mancha...
+# cadenaejemplo = "EN UN LUGAR DE LA MANCHA..."
+# print(cadenaejemplo.lower())
+
+# # numero de caracteres que componen la cadena de texto
+# cadenaejemplo = "Mario Alejandro Izaguirre de la Cruz"
+# print(len(cadenaejemplo))
+
+# comprueba si todos los caracteres que componen la cadena de texto son
+# alfanuméricos o no (el espacio no cuenta como alfanumerico)
+
+# cadenaejemplo = "En un lugar de la mancha..."
+# print(cadenaejemplo.isalnum())
+# cadenaejemplo = "1234567890"
+# print(cadenaejemplo.isalnum())
+# cadenaejemplo = "abcdefg1234567890"
+# print(cadenaejemplo.isalnum())
+# cadenaejemplo = "abcdefg 1234567890"
+# print(cadenaejemplo.isalnum())
+
+# comprueba si todos los caracteres de la cadena de texto son caracteres
+# alfabéticos.
+
+# cadenaejemplo = "Enunlugardelamancha"
+# print(cadenaejemplo.isalpha())
+# cadenaejemplo = "En un lugar de la mancha"
+# print(cadenaejemplo.isalpha())
+# cadenaejemplo = "1234567890"
+# print(cadenaejemplo.isalpha())
+# cadenaejemplo = "abcdefg 1234567890"
+# print(cadenaejemplo.isalpha())
+
+# comprueba si todos los caracteres de la cadena de texto son caracteres
+# numéricos
+
+# cadenaejemplo = "En un lugar de la mancha"
+# print(cadenaejemplo.isdigit())
+# cadenaejemplo = "1234567890"
+# print(cadenaejemplo.isdigit())
+# cadenaejemplo = "abcdefg 1234567890"
+# print(cadenaejemplo.isdigit())
+
+# comprueba si todos los caracteres que componen la cadena están en
+# minúscula
+
+# cadenaejemplo = "En un lugar de la mancha"
+# print(cadenaejemplo.islower())
+# cadenaejemplo = "en un lugar de la mancha"
+# print(cadenaejemplo.islower())
+
+# comprueba si todos los caracteres que componen la cadena de texto están en
+# mayúscula
+
+# cadenaejemplo = "En un lugar de la mancha"
+# print(cadenaejemplo.isupper())
+# cadenaejemplo = "EN UN LUGAR DE LA MANCHA"
+# print(cadenaejemplo.isupper())
+
+# # Para eliminar los caracteres del comienzo de la cadena tienes que utilizar lstrip
+# cadenaejemplo = " En un lugar de la mancha"
+# print(cadenaejemplo.lstrip())
+
+# # para eliminar los caracteres del final de la cadena tienes que utilizar rstrip
+# cadenaejemplo = "En un lugar de la mancha "
+# print(cadenaejemplo.rstrip())
+
+# # para eliminar ambos a la vez tienes que utilizar strip
+# cadenaejemplo = " En un lugar de la mancha "
+# print(cadenaejemplo.strip())
+
+# max y min, que van a permitirte conocer el carácter alfabético mayor y menor de
+# la cadena de texto
+# cadenaejemplo = "abcdefghijklmnopqrstuvwxyz"
+# print(max(cadenaejemplo))
+# print(min(cadenaejemplo))
+
+# replace, que te va a permitir reemplazar caracteres de la cadena de texto por
+# otros caracteres
+
+# cadenaejemplo = "AEIOU"
+# print(cadenaejemplo.replace('A','E'))
+
+# # swapcase permite invertir las mayúsculas y minúsculas de la cadena de texto
+# cadenaejemplo = "En un lugar de la mancha"
+# print(cadenaejemplo.swapcase())
+
+# split, que te va a permitir convertir una cadena de texto en una lista de elementos
+# que se encuentran separados por espacios en la cadena de texto original.
+# cadenaejemplo = "En un lugar de la mancha"
+# print(cadenaejemplo.split())
+# ['En', 'un', 'lugar', 'de', 'la', 'mancha']
+
+cadenaejemplo = "31/12/2017"
+print(cadenaejemplo.split("/"))
