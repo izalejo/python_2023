@@ -1,0 +1,57 @@
+# Una lista es un conjunto ordenado de elementos que puede contener datos de
+# cualquier tipo. Es el tipo de colección más flexible de todos los que veremos en
+# esta fase. Las listas pueden contener elementos del mismo tipo o elementos de
+# diferentes tipos.
+# En Python las listas se delimitan con corchetes “[ ]”, con los elementos
+# separados por comas.
+
+# lista = ["ordenador","teclado","raton"]
+# print(lista)
+
+# lista = ["ordenador","teclado","raton"]
+# #  Longitud de la lista
+# print(len(lista))
+# # Contnido de la lista en la pos 0
+# print(lista[0])
+# # COntenido de la lista en la pos 1
+# print(lista[1])
+# # Contenido de la lista en la pos 2
+# print(lista[2])
+
+# Agregar una lista a otra lista
+# listaoriginal = ["ordenador","teclado","raton"]
+# listanueva = ["monitor","impresora","altavoces"]
+# listafinal = listaoriginal + listanueva
+# print(listafinal)
+
+# Agregar un contenido a una lista
+# lista = ["ordenador","teclado","raton"]
+# print(lista)
+# lista = lista + ["mesa"]
+# print(lista)
+
+# Modificar contenido de una lista por medio de la expecificacion
+# de posiciones
+# lista = ["ordenador","teclado","raton"]
+# print(lista)
+# lista[0] = "monitor"
+# lista[1] = "impresora"
+# lista[2] = "altavoces"
+# print(lista)
+
+# Eliminar una variable de la lista por medio de la especificacion
+#  de la posicion
+# lista = ["ordenador","teclado","raton"]
+# print(lista)
+# del lista[1]
+# print(lista)
+
+# Acceso de información de una lista dentro de otra lista
+# lista = ["ordenador","teclado","raton", ["tarjeta de sonido","microfono","altavoces"]]
+# print(lista[0])
+# print(lista[1])
+# print(lista[2])
+# print(lista[3])
+# print(lista[3][0])
+# print(lista[3][1])
+# print(lista[3][2])
