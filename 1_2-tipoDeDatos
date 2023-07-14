@@ -1,0 +1,22 @@
+# sumando1 = int(input("Introduzca el primer sumando: "))
+# sumando2 = float(input("Introduzca el segundo sumando: "))
+# print(f"Resultado de la suma {sumando1} + {sumando2} es:", sumando1 + sumando2)
+
+# dividendo = float(input("Introduzca el dividendo: "))
+# divisor = float(input("Introduzca el divisor: "))
+# # El primero de ellos es el número real que quieres redondear y el segundo es el número de decimales
+# # al que quieres redondear
+# resultado = round(dividendo / divisor, 3)
+# print("Resultado de la division: ", resultado)
+
+# cadenaejemplo = "Hola Time of Software\nEsto es una cadena\nmultilinea"
+# print(cadenaejemplo)
+
+# numero1 = 6
+# numero2 = 9
+# print(numero1 > numero2)
+# print(numero1 >= numero2)
+# print(numero1 < numero2)
+# print(numero1 <= numero2)
+# print(numero1 == numero2)
+# print(numero1 != numero2)
